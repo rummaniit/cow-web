@@ -1,0 +1,138 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: lightcyan;
+}
+
+.footer h1 {
+    color: orangered;
+    font-family: 'Pacifico', cursive;
+
+}
+
+img {
+    width: 90%;
+}
+
+.top-banner {
+    color: white;
+    background-image: url("images/match-sumaya-On-ayJ6MaDg-unsplash.jpg"), linear-gradient(rgba(1, 1, 1, 1), rgba(1, 1, .5, 0.5));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15%;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.btn {
+    border: none;
+    background-image: linear-gradient(tomato, red);
+    padding: 20px 50px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.second-banner {
+    display: flex;
+    padding: 3%;
+    margin-top: 100px;
+}
+
+
+.second-banner-left {
+    margin-right: 18px;
+    margin-left: 10px;
+    padding: 0 15px;
+}
+
+.common {
+    width: 50%;
+}
+
+.third-banner {
+    margin-top: 100px;
+}
+
+.des {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    padding: 10px 25px;
+    background-color: lightblue;
+    margin: 5px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.card img {
+    width: 100px;
+}
+
+.fort-section {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+
+.images-gal {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+
+.images-gal img {
+    width: 33%;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+.fifth {
+    margin-top: 100px;
+}
+
+.fifth img {
+    width: 412px;
+}
+
+.fifth-card {
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.fifth-card>div {
+    width: 30%;
+    margin: 5px;
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+}
+
+.abc {
+    padding: 15px 15px;
+}
+
+a {
+    font-size: 20px;
+    color: red;
+    font-weight: 700;
+}
+
+.footer {
+    margin-top: 100px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
